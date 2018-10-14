@@ -1,0 +1,6 @@
+[core]
+	excludesfile = ~/.gitignore
+	editor = vi
+[user]
+	email = michael.cacek@gmail.com
+	name = Michael Cacek
