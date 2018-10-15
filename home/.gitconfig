@@ -4,3 +4,14 @@
 [user]
 	email = michael.cacek@gmail.com
 	name = Michael Cacek
+[alias]
+        caa = commit --all --amend --no-edit
+        cp = cherry-pick
+        co = checkout
+        rh = reset --hard
+        rs = reset --soft
+        rl = reset HEAD~1
+        commit = commit -S
+        repop = pull --rebase --autostash
+[credential]
+        helper = gnome-keyring
