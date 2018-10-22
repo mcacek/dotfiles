@@ -7,7 +7,6 @@ do
 
     if [[ -s "$dir/bin" ]]; then
         export PATH=$PATH:${dir}/bin
-        echo $PATH
     fi
 
     if [[ -f "$dir/aliases" ]]; then
