@@ -1,4 +1,4 @@
-for dir in ~/.dot-workspaces/*/
+for dir in ~/.dotworkspaces/*/
 do
     dir=${dir%*/}
     if [[ -f "$dir/exports" ]]; then

@@ -15,7 +15,7 @@ source ~/.exports
 [[ -f ~/.exports-secret ]] && source ~/.exports-secret
 
 # Workspace Loader
-source ~/.bin/init-workspaces.sh
+source ~/.dotbin/init-workspaces.sh
 
 # NVM Configuration
 export NVM_DIR="$HOME/.nvm"
