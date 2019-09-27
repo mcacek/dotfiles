@@ -13,5 +13,8 @@
         rl = reset HEAD~1
         commit = commit -S
         repop = pull --rebase --autostash
-[credential]
-        helper = gnome-keyring
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

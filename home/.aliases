@@ -1,3 +1,2 @@
-alias vi=vim
-alias ls='ls --color=auto --group-directories-first -Fh'
+alias vi="vim"
 alias mux="tmuxinator"
