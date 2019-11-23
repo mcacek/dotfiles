@@ -21,10 +21,10 @@ antigen apply
 bindkey -v
 
 # Import aliases across shells
-. ~/.aliases
+. $HOME/.aliases
 
 # Import default exports
-. ~/.exports
+. $HOME/.exports
 
 [[ -f ~/.exports-secret ]] && source ~/.exports-secret
 

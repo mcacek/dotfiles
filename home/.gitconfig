@@ -12,7 +12,8 @@
         rs = reset --soft
         rl = reset HEAD~1
         commit = commit -S
-        repop = pull --rebase --autostash
+	repop = pull --rebase --autostash
+	wip = commit -m "WIP"
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
