@@ -1,17 +1,3 @@
-# VIM Mode
-set -o vi
-
-# Import aliases across shells
-. ~/.aliases
-
-# Import default exports
-. ~/.exports
-
-[[ -f ~/.exports-secret ]] && source ~/.exports-secret
-
-# Workspace Loader
-source ~/.dotbin/init-workspaces.sh
-
 source ~/.zsh-opt/antigen.zsh
 
 # Load the oh-my-zsh's library.
@@ -30,6 +16,21 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 # Load the theme.
 antigen theme candy
 antigen apply
+
+# VIM Mode
+bindkey -v
+
+# Import aliases across shells
+. ~/.aliases
+
+# Import default exports
+. ~/.exports
+
+[[ -f ~/.exports-secret ]] && source ~/.exports-secret
+
+# Workspace Loader
+source ~/.dotbin/init-workspaces.sh
+
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
