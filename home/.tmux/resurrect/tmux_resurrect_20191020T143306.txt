@@ -1,7 +1,0 @@
-pane	pgc-site	1	:zsh	1	:*	1	:/home/michaelcacek/Code/prettygoodconferences/pgc-site	1	zsh	:
-pane	pgc-site	1	:zsh	1	:*	2	:/home/michaelcacek/Code/prettygoodconferences/pgc-site	0	zsh	:
-pane	ruthvenrocks	1	:[tmux]	1	:*Z	1	:/home/michaelcacek/Code/ruthvenrocks/website/src/assets	1	zsh	:
-pane	ruthvenrocks	1	:[tmux]	1	:*Z	2	:/home/michaelcacek/Code/ruthvenrocks	0	zsh	:
-window	pgc-site	1	1	:*	5328,198x49,0,0[198x24,0,0,1,198x24,0,25,2]
-window	ruthvenrocks	1	1	:*Z	460b,198x49,0,0{99x49,0,0,0,98x49,100,0,3}
-state	ruthvenrocks	pgc-site

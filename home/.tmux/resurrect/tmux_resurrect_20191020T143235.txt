@@ -1,7 +1,0 @@
-pane	0	1	:zsh	1	:*	1	:/home/michaelcacek/Code/ruthvenrocks/website/src/assets	1	zsh	:
-pane	0	1	:zsh	1	:*	2	:/home/michaelcacek/Code/ruthvenrocks	0	zsh	:
-pane	pgc-site	1	:zsh	1	:*	1	:/home/michaelcacek/Code/prettygoodconferences/pgc-site	1	zsh	:
-pane	pgc-site	1	:zsh	1	:*	2	:/home/michaelcacek/Code/prettygoodconferences/pgc-site	0	zsh	:
-window	0	1	1	:*	460b,198x49,0,0{99x49,0,0,0,98x49,100,0,3}
-window	pgc-site	1	1	:*	5328,198x49,0,0[198x24,0,0,1,198x24,0,25,2]
-state	0	pgc-site

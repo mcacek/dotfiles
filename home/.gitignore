@@ -3,5 +3,5 @@ bin/
 .project
 .classpath
 .settings/
-.tmux
+.tmux/
 node_modules/
