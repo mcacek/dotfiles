@@ -31,6 +31,10 @@ bindkey -v
 # Workspace Loader
 source ~/.dotbin/init-workspaces.sh
 
+ts() {
+  date +%Y%m%d%H%M%s
+}
+
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
